@@ -2,12 +2,13 @@
   --primary-color: #044b83;
   --primary-color-light: #3183c2;
   --secondary-color: #e43c44;
+  --secondary-color-nav: #bc4b51;
   --text-light: #fff;
   --text-dark: #000;
+  --text-dark-nav: #121111;
   --width: 100%;
   --max-width: 1200px;
 }
-
 /* ================= DESKTOP ================= */
 
 @media (min-width: 861px) {
@@ -107,6 +108,7 @@
     width: 100px;
   }
 }
+
 
 
 
