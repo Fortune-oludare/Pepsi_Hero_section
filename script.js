@@ -32,6 +32,7 @@ ScrollReveal().reveal(".image-flex-container", {
 let navigation = document.querySelector("nav");
 let closeIcon = document.getElementById("close");
 let openIcon = document.getElementById("open");
+let nav = document.getElementById('nav');
 
 openIcon.addEventListener("click", () => {
   navigation.classList.add("show");
@@ -48,15 +49,18 @@ let image = document.getElementById("image");
 
 blue.addEventListener("click", () => {
   body.style.background = "#044b83";
+  nav.style.background = "#3183c2";
   image.setAttribute("src", "assets/pepsi_blue.png");
 });
 
 black.addEventListener("click", () => {
+  nav.style.background = "#121111";
   body.style.background = "#000";
   image.setAttribute("src", "assets/pepsi_black.jpg");
 });
 
 diet.addEventListener("click", () => {
+  nav.style.background = "#bc4b51";
   body.style.background = "#e43c44";
   image.setAttribute("src", "assets/pepsi_diet.jpg");
 });
